@@ -1,0 +1,91 @@
+:root {
+    --text-color:#212121;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+.body-type {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+}
+
+.page-nav-link {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-color)
+}
+
+.page-nav-link:hover {
+    color: #2196F3
+}
+
+.page-nav-link:focus {
+    color: #2196F3
+}
+
+.button {
+    cursor: pointer;
+}
+.main-page {
+    background: #2F303A;
+}
+.main-page-text {
+    font-family: 'Roboto', sans-serif;
+    /*font-style: normal;
+    font-weight: 900;*/
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.main-title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.main-title-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.title {
+    /*font-weight: 700;*/
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.title-team {
+    /*font-weight: 500;*/
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.title-team-text {
+    /*font-weight: 400;*/
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
